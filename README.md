@@ -34,6 +34,7 @@ board.acknowledge(tick.id, "planner", "Re-prioritized task queue");
 ```
 
 ## How It Fits
+- [OpenConstruct Documentation](https://github.com/SuperInstance/openconstruct-docs) — ecosystem-wide docs and guides
 
 The message layer between agents. Uses [plato-a2a](https://github.com/SuperInstance/plato-a2a) types for wire format. Agents in [plato-shell](https://github.com/SuperInstance/plato-shell) communicate through ticks. [plato-observe](https://github.com/SuperInstance/plato-observe) monitors tick flow for performance analysis.
 
